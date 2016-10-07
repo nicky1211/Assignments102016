@@ -1,3 +1,4 @@
+import csv
 class compile:
 
     stopwords = ['a', 'about', 'above', 'across', 'after', 'afterwards']
@@ -87,15 +88,22 @@ class compile:
     def removeStopwords(self,wordlist, stopwords):
         return [w for w in wordlist if w not in stopwords]
 
+    def writeDictToCsv(self,dictionary):
+        with open('dict.csv', 'wb') as csv_file:
+            writer = csv.writer(csv_file)
+            for key, value in dictionary.items():
+                writer.writerow([key, value])
+
 if __name__ == '__main__':
     
     freqQbj = compile()
-    file = open("/home/manick/devopsAssasination/text.txt",'r').read()
+    file = open("/home/manick/devopsAssasination/assig2-gitData/data/clean.txt",'r').read()
     text = freqQbj.stripTags(file).lower()
     fullwordlist = freqQbj.stripNonAlphaNum(text)
     wordlist = freqQbj.removeStopwords(fullwordlist, freqQbj.stopwords)
     dictionary = freqQbj.wordListToFreqDict(wordlist)
     sorteddict = freqQbj.sortFreqDict(dictionary)
+    freqQbj.writeDictToCsv(dictionary)
 
 
     for s in sorteddict: print(str(s))
