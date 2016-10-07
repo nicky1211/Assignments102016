@@ -1,0 +1,185 @@
+commit 09f8bb6959f70edaf90d7d852e2ca9c85d2bf06a
+Author: dprasad <dprasadm@gmail.com>
+Date:   Fri Oct 7 10:38:57 2016 +0530
+
+    Added missing newlines. Clarified that for the assignment-2 one may work with local repositories, and that there's absolutely no necessity to use external APIs or libraries, and such.
+
+commit bb60038d09c28d4d7749d15b6a8da6726e40163c
+Author: dprasad <dprasadm@gmail.com>
+Date:   Fri Oct 7 10:06:29 2016 +0530
+
+    List of assignments for the rest of the semester!
+
+commit 7e3661d85587bcd346bbbedbce57f4bfc0cb827d
+Author: dprasad <dprasadm@gmail.com>
+Date:   Sun Oct 2 13:43:04 2016 +0530
+
+    The first version: converting series of headers to a row in a big table. Each row is for now represented by a Python dictionary. Need to write this to a simple text table so we can import it as a DataFrame in Pandas.
+
+commit 53e8068c3d163e14f0992c9eeadd2c1495f74aa8
+Author: dprasad <dprasadm@gmail.com>
+Date:   Sun Oct 2 13:40:00 2016 +0530
+
+    Changed the string used to separate each header block. Using a shorter one reduces the file size by a substantial amount.
+
+commit 7e26655675b51b9d9cf21f6c89eafee53aeff3d7
+Author: dprasad <dprasadm@gmail.com>
+Date:   Sun Oct 2 00:31:16 2016 +0530
+
+    Rough cut of the mktabl program. Incomplete, in the sense that headers spanning multiple lines are not handled. Otherwise, produces correct output for one line header-lines. Needs some more work.
+
+commit b215c69b0feae19f4fe5ed825c9298000ba10fe4
+Author: dprasad <dprasadm@gmail.com>
+Date:   Sat Oct 1 11:25:17 2016 +0530
+
+    Ported the solution to Python 3.5.2, and ensured that everything is compatible with 2.7.x.
+
+commit 350545f1e22777ee83078b251bbfeeab41cd1508
+Author: dprasad <dprasadm@gmail.com>
+Date:   Fri Sep 30 16:21:03 2016 +0530
+
+    Fixed an important bug! 'gmr.py' was eating initial two letters from the name of the recipient!
+
+commit 99ffb7ad1c0b09c77cb45beb4e71b55a4c029e20
+Author: dprasad <dprasadm@gmail.com>
+Date:   Fri Sep 23 00:25:52 2016 +0530
+
+    Dot plot and a stacked-dot plot of US ozone concentration in the air.
+
+commit 2b261d94c2a02ed1b6407e89c959063810cb2e58
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Sep 22 15:24:59 2016 +0530
+
+    The text version of the FBI data.
+
+commit 03873504756f28403119a3ab8aa12ebfa60b08a0
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Sep 22 14:54:30 2016 +0530
+
+    Changed the way we plot values. The values are plotted in the ascending order. Y axis ticks are also labeled per the ascending order.
+
+commit 0d8b48e564f842de6ef8b63d0a3c060ab4378be1
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Sep 22 10:34:20 2016 +0530
+
+    A quick and dirty way to sort on frequency of emails sent/recieved and print the result. Uses some simple tricks to elide email ids, etc.
+
+commit 635bd78f141c7eec7b5ff634cbe12ad0dee8840e
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed Sep 21 23:45:36 2016 +0530
+
+    Fixed a rendering bug. The first offense ('murder') was not appearing on the y-axis. Fixed it by properly setting  the y-axis limits and ticks linearly spaced.
+
+commit a8f37253673877849c674e195588ad95a971065a
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed Sep 21 17:21:40 2016 +0530
+
+    for the first time drew custom axis spines with labels.
+
+commit ca8fd729cefecc755b2814af0de7dc3a0e2fbbff
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed Sep 21 01:30:01 2016 +0530
+
+    Gender crime pattern. Plotted the graph of data from 2014.
+
+commit e959752c70751e2183527e24bd78e1896d93a2ff
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon Sep 19 16:16:58 2016 +0530
+
+    The amazing science of computing quantile and plotting them!
+
+commit cece540487ca1d6b7d110aa2fc9f9b42b67874a1
+Author: dprasad <dprasadm@gmail.com>
+Date:   Fri Sep 16 23:23:57 2016 +0530
+
+    Added examples to develop the mental-model of dataframes.
+
+commit 192de5176e420c2646c9e3b012e868bfa1a6a3d2
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Sep 15 10:30:26 2016 +0530
+
+    A bunch of code snippets that help build a mental-model of matplotlib basics.
+
+commit 642a14d8f13714761dddd8722e600f9b7e00791f
+Author: dprasad <dprasadm@gmail.com>
+Date:   Tue Sep 13 22:29:50 2016 +0530
+
+    Made data transformation explicit. Added a few comments.
+
+commit 4d350e48393b56eba6c71cee9a13750c3f415ed7
+Author: dprasad <dprasadm@gmail.com>
+Date:   Tue Sep 13 22:12:14 2016 +0530
+
+    Used a better name for the variable: changed vline to hline. Changed the default to draw plot on the screen rather than save images.
+
+commit 0f5c1a20b45cb30478c1b61ea84e35f4349a225d
+Author: dprasad <dprasadm@gmail.com>
+Date:   Sun Sep 11 21:08:59 2016 +0530
+
+    Google GMail archive scanners. Collect simple data - senders and receiver frequencies.
+
+commit 47229dfba425754a8bcddb61df3fcf2dac3a5aca
+Author: dprasad <dprasadm@gmail.com>
+Date:   Fri Sep 9 15:43:42 2016 +0530
+
+    Refactored the code. The figure background is set to white color.
+
+commit 1a30cc9fd11ad6af5a539796fe905f44a049c8d6
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Sep 8 17:05:57 2016 +0530
+
+    How to draw an interval graph?
+
+commit 82ace57057a8bc1d73d39ce6c5a02a7553286e85
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Sep 8 12:51:10 2016 +0530
+
+    Renamed source file: make-data --> make_data. I was passing an array of array of indices in make_stat.py. Changed it to an array of indices.
+
+commit 4a5181507fc13d3f628bdc824f3f14ea39e3ee62
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Sep 8 10:47:12 2016 +0530
+
+    Lecture slide deck for grammar of graphics data and variables.
+
+commit 59c46f0d3c16f76e314e195aae57fb5739e42e70
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Sep 8 10:06:41 2016 +0530
+
+    Created a table of statistics. Fixed import bug in the 'read_data' program.
+
+commit badf39366f42e08cf3663dd2b3f52d224c69c1c8
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Sep 8 00:41:58 2016 +0530
+
+    Read in the data - pandas.DataFrame.
+
+commit 0cfdc3b655746297c197404d8d6016fc75964547
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed Sep 7 22:28:24 2016 +0530
+
+    A cool program to create csv files containing the responses of men and women.
+
+commit 61d1f82bab8fd060cb7f2a52e416e440349f78e9
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed Sep 7 21:13:41 2016 +0530
+
+    Slide deck: Introduction to Grammar of Graphics. Life of Tukey + Tukey: Future of Data Analysis + Brief History of S.
+
+commit f9d311cf20ac428d495733629ad0928caf406553
+Author: dprasad <dprasadm@gmail.com>
+Date:   Fri Sep 2 11:12:22 2016 +0530
+
+    Added (1)Chartjunk debate and (2)Interactive analytics; both by Stephen Few.
+
+commit f19b7a661504a7a1908fc961a798070b1eacb273
+Author: dprasad <dprasadm@gmail.com>
+Date:   Fri Sep 2 11:00:51 2016 +0530
+
+    Added an interesting paper titled 'Ten Simple Rules for Better Visualization' by Nicolas Rougier and others.
+
+commit f7a56ae6bda8e8f664e89baac701ef48b6f535d0
+Author: dprasad <dprasadm@gmail.com>
+Date:   Sat Aug 27 22:35:14 2016 +0530
+
+    Initial commit.
