@@ -97,11 +97,6 @@ if __name__ == '__main__':
     dictionary = freqQbj.wordListToFreqDict(wordlist)
     sorteddict = freqQbj.sortFreqDict(dictionary)
 
-<<<<<<< HEAD
+
     for s in sorteddict: print(str(s))
-=======
-    for s in sorteddict: print(str(s))
-    # c= compile()
-    # te = c.stripTags(file)
-    # print te
->>>>>>> 615fb76568a33b97fc7bd933d9ac857690500766
+
