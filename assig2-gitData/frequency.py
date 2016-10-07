@@ -1,7 +1,3 @@
-# obo.py
-
-
-
 class compile:
 
     stopwords = ['a', 'about', 'above', 'across', 'after', 'afterwards']
