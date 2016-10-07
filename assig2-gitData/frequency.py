@@ -54,11 +54,6 @@ class compile:
 
 
     def stripTags(self,pageContents):
-        startLoc = pageContents.find("")
-        endLoc = pageContents.rfind("")
-
-        pageContents = pageContents[startLoc:endLoc]
-
         inside = 0
         text = ''
 
