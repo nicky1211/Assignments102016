@@ -1,7 +1,3 @@
-# obo.py
-
-
-
 class compile:
 
     stopwords = ['a', 'about', 'above', 'across', 'after', 'afterwards']
@@ -58,11 +54,6 @@ class compile:
 
 
     def stripTags(self,pageContents):
-        startLoc = pageContents.find("")
-        endLoc = pageContents.rfind("")
-
-        pageContents = pageContents[startLoc:endLoc]
-
         inside = 0
         text = ''
 
@@ -107,6 +98,3 @@ if __name__ == '__main__':
     sorteddict = freqQbj.sortFreqDict(dictionary)
 
     for s in sorteddict: print(str(s))
-    # c= compile()
-    # te = c.stripTags(file)
-    # print te
