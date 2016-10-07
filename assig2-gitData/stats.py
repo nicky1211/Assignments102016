@@ -29,7 +29,7 @@ class Stats:
         charlst = []
         for i in range(wordAq.len()):
             wordlst.append(wordAq.dequeue())
-            # print val
+            
 
         for i in range(charAq.len()):
             charlst.append(charAq.dequeue())
