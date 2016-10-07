@@ -8,22 +8,20 @@ charAq = ArrayQueue()
 
 class Stats:
     
-    def stats(self,inF):
+    def getWordCharCount(self,inF):
 
-        num_lines = 0
-        num_words = 0
-        num_chars = 0
-        word_len_list = []
+        # num_words = 0
+        # num_chars = 0
+        # word_len_list = []
 
         with open(inF, 'r') as input_file:
             for line in input_file:
-                num_lines += 1
                 line_words = line.split()
                 wordAq.enqueue(len(line.split(' '))) 
                 charAq.enqueue(len(line.strip(' ')))
-                num_words += len(line_words)
-                for word in line_words:
-                    num_chars += len(word)
+                # num_words += len(line_words)
+                # for word in line_words:
+                #     num_chars += len(word)
 
     def writeToCsv(self,inFile,outFile):
 
@@ -46,5 +44,5 @@ class Stats:
 if __name__ == '__main__':
 
     st = Stats()
-    st.stats("/home/manick/devopsAssasination/assig2-gitData/data/clean.txt")
+    st.getWordCharCount("/home/manick/devopsAssasination/assig2-gitData/data/clean.txt")
     st.writeToCsv("/home/manick/devopsAssasination/assig2-gitData/data/clean.txt","/home/manick/devopsAssasination/assig2-gitData/data/test.csv")
