@@ -44,5 +44,14 @@ class Stats:
 if __name__ == '__main__':
 
     st = Stats()
-    st.getWordCharCount("/home/manick/devopsAssasination/assig2-gitData/data/clean.txt")
-    st.writeToCsv("/home/manick/devopsAssasination/assig2-gitData/data/clean.txt","/home/manick/devopsAssasination/assig2-gitData/data/test.csv")
+    #dataViz
+    st.getWordCharCount("/home/manick/devopsAssasination/assig2-gitData/data/dataviz_clean.txt")
+    st.writeToCsv("/home/manick/devopsAssasination/assig2-gitData/data/dataviz_clean.txt","/home/manick/devopsAssasination/assig2-gitData/data/csv/dataviz.csv")
+
+    #SAP repo
+    st.getWordCharCount("/home/manick/devopsAssasination/assig2-gitData/data/sap_clean.txt")
+    st.writeToCsv("/home/manick/devopsAssasination/assig2-gitData/data/sap_clean.txt","/home/manick/devopsAssasination/assig2-gitData/data/csv/sap.csv")
+
+    #MM16 Repo
+    st.getWordCharCount("/home/manick/devopsAssasination/assig2-gitData/data/mm16_clean.txt")
+    st.writeToCsv("/home/manick/devopsAssasination/assig2-gitData/data/mm16_clean.txt","/home/manick/devopsAssasination/assig2-gitData/data/csv/mm16.csv")
