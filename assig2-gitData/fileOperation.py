@@ -23,15 +23,24 @@ class fileOperation:
 		p = subprocess.Popen("sed -e 's/^[ \t]*//' %s > %s"%(inFile,outFile), stdin=subprocess.PIPE, shell=True )
 		p.communicate( b"input data\n" )
 
-# if __name__ == '__main__':
+if __name__ == '__main__':
 
-# 	gt = fileOperation()
+	gt = fileOperation()
 
-# 	"""
-	
 
-# 	"""
+	#For the dataViz repo
+ 	gt.getcommitMessageFromLog(properties.dataViz_output_file,"/home/manick/devopsAssasination/assig2-gitData/data/datvizfile1.txt")
+ 	gt.removeEmptyLines("/home/manick/devopsAssasination/assig2-gitData/data/datvizfile1.txt","/home/manick/devopsAssasination/assig2-gitData/data/dataviz_empty_lines_removed.txt")
+ 	gt.removeUnwantedSpaces("/home/manick/devopsAssasination/assig2-gitData/data/dataviz_empty_lines_removed.txt","/home/manick/devopsAssasination/assig2-gitData/data/dataviz_clean.txt")
 
-#  	#gt.getcommitMessageFromLog(properties.dataViz_output_file,"/home/manick/devopsAssasination/assig2-gitData/data/outFile.txt")
-#  	#gt.removeEmptyLines("/home/manick/devopsAssasination/assig2-gitData/data/outFile.txt","/home/manick/devopsAssasination/assig2-gitData/data/outFile_formated.txt")
-#  	gt.removeUnwantedSpaces("/home/manick/devopsAssasination/assig2-gitData/data/outFile_formated.txt","/home/manick/devopsAssasination/assig2-gitData/data/clean.txt")
+ 	#For the SAP repo
+
+ 	gt.getcommitMessageFromLog(properties.sap_output_file,"/home/manick/devopsAssasination/assig2-gitData/data/sapfile1.txt")
+ 	gt.removeEmptyLines("/home/manick/devopsAssasination/assig2-gitData/data/sapfile1.txt","/home/manick/devopsAssasination/assig2-gitData/data/sap_empty_lines_removed.txt")
+ 	gt.removeUnwantedSpaces("/home/manick/devopsAssasination/assig2-gitData/data/sap_empty_lines_removed.txt","/home/manick/devopsAssasination/assig2-gitData/data/sap_clean.txt")
+
+
+ 	#For the mm16 repo
+ 	gt.getcommitMessageFromLog(properties.mm16_output_file,"/home/manick/devopsAssasination/assig2-gitData/data/mmfile1.txt")
+ 	gt.removeEmptyLines("/home/manick/devopsAssasination/assig2-gitData/data/mmfile1.txt","/home/manick/devopsAssasination/assig2-gitData/data/mm16_empty_lines_removed.txt")
+ 	gt.removeUnwantedSpaces("/home/manick/devopsAssasination/assig2-gitData/data/mm16_empty_lines_removed.txt","/home/manick/devopsAssasination/assig2-gitData/data/mm16_clean.txt")
