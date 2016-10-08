@@ -1,0 +1,48 @@
+Fixed a trivial typo in the title of the paper.
+second test paper.
+well, a pdf version of the paper.
+Added the title and other cosmetics
+The test paper.
+Added one more test case just so it is easy to explain.
+slide deck
+Observer pattern instantiation. Logging observer implementation.
+First code drop of the Observer pattern. Client code not yet in place.
+Added a single word: 'adaptee' to the comments!
+Decorator samples - logger and plain vanilla decorator!
+Calculator now supports registers!
+Removed the not-so-great example for adapter pattern.
+Sample for adapter pattern - calculators!
+Started with adapter pattern sample code. Added slide-deck for the decorator pattern.
+reorganized the composite pattern sample code.
+Adapter pattern, slide-deck.
+Composite design pattern, slide-deck. Tabbed-Window sample for composite design pattern.
+singleton pattern implementation.
+Reorganized the directory of factory pattern to make space for the code for singleton pattern.
+Slide-deck for Abstract Factory and Singleton design patterns.
+Changed the action name from run to test.
+Reorganized the components for easy access and explanation. Introduced a makefile for compiling and testing the program.
+Source code for the abstract factory pattern lecture.
+Added content. Removed a redundant import in INameBuilder interface.
+A decent implementation showing the instantiation of Builder pattern.
+Moved content files and source code to separate directories.
+Initial content for the tenth lecture. Explaining design patterns.
+Used format method instead of println.
+Used StringBuilder instead of String to build the json string before passing it to the JSONObject constructor. Regained the type of middle in th process! YAYgit status we maintain it as an integer and not as a string.
+Builder classes in Java. Time to talk design patterns!
+some more state machines. Stack operations. Incoming call and history state. Types of events.
+Three state machines. Sent message lifecycle. Lockscreen state machines 1 and 2.
+Deployment diagram. Message delivery state machine.
+Fixed arrows, relationships, and introduced a deployment diagram.
+Trivial tweaks in 'sync-messages' and 'send-one-message' sequence diagrams. Modeled 'send-group-one-message' with loops and asynchrony.
+Removed pdf versions of the images. This was redundant because jpegs are anyway available. Created two use cases (WhatsApp-like behavior): creating a broadcase group, and broadcasting a message. Added a class diagram to show the possibility of modeling the association between a person and his device.
+Fixed variable names in the UML diagram. Very trivial update.
+Two updates. (1) A Java sample code demonstrating ArrayList<E> instantiation, and its coresponding template-binding UML diagram in the fifth lecture. (2) Bunch of UML diagrams to show the class diagrams for capturing requirements and early design decisions.
+Sequence diagram showing activeentities, asynchronous messages, iteration, in one great example!
+Send a message sequence diagram.
+Updated the driver safety index requirements document.
+java collection and template bind notations.
+Fourth lecture content. A UML sequence diagram for prepaid online recharge use case.
+Slide Deck implementation in Java. Uses assert statements.
+Changed the project title to 'Spring Notes'
+Cosmetic modifications to the project titles.
+General directory structure. Content for the first lecture.

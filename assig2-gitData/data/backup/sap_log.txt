@@ -1,0 +1,287 @@
+commit 51f7146bb44308aef70436e3666904624e1dc925
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon May 30 16:44:52 2016 +0530
+
+    Fixed a trivial typo in the title of the paper.
+
+commit 02258ddec67f4cb2e95ff08e249f0d0dd6f42c4d
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon May 30 16:42:36 2016 +0530
+
+    second test paper.
+
+commit df6da9fdf637b56c73dfc03a898d3c43b9ed8d90
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu May 19 13:06:33 2016 +0530
+
+    well, a pdf version of the paper.
+
+commit e02be964cc87cf9cee16915efc3b37218e532db2
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu May 19 13:03:04 2016 +0530
+
+    Added the title and other cosmetics
+
+commit cf4454acc161f0bdee083473a3b9bfb2de877fa1
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu May 19 12:51:25 2016 +0530
+
+    The test paper.
+
+commit 09a24d89fce890f6f1ab1cbdc957cc9a6aebe06e
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu May 19 12:27:14 2016 +0530
+
+    Added one more test case just so it is easy to explain.
+
+commit e0beacef5c2eecd10a4f89436ba9bae470c0509e
+Author: dprasad <dprasadm@gmail.com>
+Date:   Tue May 17 09:10:01 2016 +0530
+
+    slide deck
+
+commit 8cf117a5c2c371b96f626633696a593b0f03c166
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon May 16 21:52:32 2016 +0530
+
+    Observer pattern instantiation. Logging observer implementation.
+
+commit 2071c694f0f6cb021793cee1c3417a70a1d130d8
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon May 16 17:18:55 2016 +0530
+
+    First code drop of the Observer pattern. Client code not yet in place.
+
+commit 67766d78c3fb9e8b5997c4fbda10b72fb6d31b30
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon May 16 12:11:32 2016 +0530
+
+    Added a single word: 'adaptee' to the comments!
+
+commit cc16a23413d11af65ef33e80342a8b2c82ee636c
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed May 11 22:33:58 2016 +0530
+
+    Decorator samples - logger and plain vanilla decorator!
+
+commit 8dba09820437e6f0b72d37a83d7879026b46e5b5
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed May 11 21:42:04 2016 +0530
+
+    Calculator now supports registers!
+
+commit 73dec3dcc70e620fb9fe2a29aac3f5bdf0dae6f2
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed May 11 21:29:05 2016 +0530
+
+    Removed the not-so-great example for adapter pattern.
+
+commit e0afe03499935f6e87cbce1f8b83d13101b712cf
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed May 11 21:24:13 2016 +0530
+
+    Sample for adapter pattern - calculators!
+
+commit fc42eb39a4342b53aa7f0a850ac462863e833ce5
+Author: dprasad <dprasadm@gmail.com>
+Date:   Tue May 10 23:56:37 2016 +0530
+
+    Started with adapter pattern sample code. Added slide-deck for the decorator pattern.
+
+commit 719897cbe1c3e11d6400fc7209babeff454b321c
+Author: dprasad <dprasadm@gmail.com>
+Date:   Tue May 10 09:09:52 2016 +0530
+
+    reorganized the composite pattern sample code.
+
+commit 969dc157e73a37d4f19fdbb44900a90f424e57d6
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon May 9 23:46:32 2016 +0530
+
+    Adapter pattern, slide-deck.
+
+commit 7fc7868cfae9bdd878af91bc506b1b7b4f35596b
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon May 9 23:40:50 2016 +0530
+
+    Composite design pattern, slide-deck. Tabbed-Window sample for composite design pattern.
+
+commit 5819c211790992904a782fd7981c87c9106d5cae
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed May 4 16:36:02 2016 +0530
+
+    singleton pattern implementation.
+
+commit aea7d58b13fca793f6685b04517dfc19af70e94c
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed May 4 15:51:16 2016 +0530
+
+    Reorganized the directory of factory pattern to make space for the code for singleton pattern.
+
+commit b01a31e02ee0226727861ff36508146c86c36a92
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed May 4 15:47:05 2016 +0530
+
+    Slide-deck for Abstract Factory and Singleton design patterns.
+
+commit b7f672f7b2f195e070b4552aba052861a366a331
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed May 4 12:25:08 2016 +0530
+
+    Changed the action name from run to test.
+
+commit 81b696ff6b20f1ce0b5fb999a51759ced092b823
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed May 4 12:24:12 2016 +0530
+
+    Reorganized the components for easy access and explanation. Introduced a makefile for compiling and testing the program.
+
+commit 1585dd6f35fced584300d71cf3e96d552fa62e2e
+Author: dprasad <dprasadm@gmail.com>
+Date:   Tue May 3 16:47:32 2016 +0530
+
+    Source code for the abstract factory pattern lecture.
+
+commit c3780fc106ad5a669284ac968e730a91b11981cb
+Author: dprasad <dprasadm@gmail.com>
+Date:   Tue May 3 11:19:23 2016 +0530
+
+    Added content. Removed a redundant import in INameBuilder interface.
+
+commit 677a440e48a846037e3817a606202ed55ce06725
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon May 2 14:57:53 2016 +0530
+
+    A decent implementation showing the instantiation of Builder pattern.
+
+commit 8119e4a239a568e2b50adbef5b9c051d187cd7ba
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon May 2 13:24:28 2016 +0530
+
+    Moved content files and source code to separate directories.
+
+commit 376daec5a63609d285bfcec7dea0a76ae56cae5f
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon May 2 12:27:08 2016 +0530
+
+    Initial content for the tenth lecture. Explaining design patterns.
+
+commit a0880d155891edcf536a1105d4c88d623eba0b58
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon Apr 25 22:57:25 2016 +0530
+
+    Used format method instead of println.
+
+commit a676f905f522930d54b4e2b3b5003bc559494115
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon Apr 25 22:38:05 2016 +0530
+
+    Used StringBuilder instead of String to build the json string before passing it to the JSONObject constructor. Regained the type of middle in th process! YAYgit status we maintain it as an integer and not as a string.
+
+commit befae30a3789f05b9a7ec3d95b39a109ec3d4cd6
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon Apr 25 15:57:19 2016 +0530
+
+    Builder classes in Java. Time to talk design patterns!
+
+commit a13cdaeec4654240fc6d8391f6f9406661c2f5f9
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon Apr 18 22:49:55 2016 +0530
+
+    some more state machines. Stack operations. Incoming call and history state. Types of events.
+
+commit 588d7c2fdeb8d7efe1887548b9b730ec2040075e
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Apr 14 17:06:02 2016 +0530
+
+    Three state machines. Sent message lifecycle. Lockscreen state machines 1 and 2.
+
+commit ba1bd1815c920362324bac9a493d45b680105e57
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed Apr 13 23:10:32 2016 +0530
+
+    Deployment diagram. Message delivery state machine.
+
+commit ecc94f08f091e9f1a5fd829b51a4767651715ed3
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed Apr 13 12:12:58 2016 +0530
+
+    Fixed arrows, relationships, and introduced a deployment diagram.
+
+commit 116bacfbba4d129a463393248cec77c8ac8fb0c7
+Author: dprasad <dprasadm@gmail.com>
+Date:   Tue Apr 12 15:17:13 2016 +0530
+
+    Trivial tweaks in 'sync-messages' and 'send-one-message' sequence diagrams. Modeled 'send-group-one-message' with loops and asynchrony.
+
+commit 23c4815f2d4dd66d46db6582f741167cee88bf9e
+Author: dprasad <dprasadm@gmail.com>
+Date:   Tue Apr 12 09:21:06 2016 +0530
+
+    Removed pdf versions of the images. This was redundant because jpegs are anyway available. Created two use cases (WhatsApp-like behavior): creating a broadcase group, and broadcasting a message. Added a class diagram to show the possibility of modeling the association between a person and his device.
+
+commit 9d52bc8b743ac1c62c42266aebc6f8a0d81ccc9b
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon Apr 11 16:59:49 2016 +0530
+
+    Fixed variable names in the UML diagram. Very trivial update.
+
+commit eaaf9308e3dcec212569c95a037717c4a7116e27
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon Apr 11 15:59:45 2016 +0530
+
+    Two updates. (1) A Java sample code demonstrating ArrayList<E> instantiation, and its coresponding template-binding UML diagram in the fifth lecture. (2) Bunch of UML diagrams to show the class diagrams for capturing requirements and early design decisions.
+
+commit 8bf9580e009e243e159d97b5b1be861c3c434482
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Apr 7 14:59:11 2016 +0530
+
+    Sequence diagram showing activeentities, asynchronous messages, iteration, in one great example!
+
+commit e665f961fff98815750a0ee933f05818c63a1244
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Apr 7 12:20:22 2016 +0530
+
+    Send a message sequence diagram.
+
+commit 43a66ea6c5673dee809382abd1b4940a6122834d
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Apr 7 07:15:10 2016 +0530
+
+    Updated the driver safety index requirements document.
+
+commit 9e9a65fec2143a1b608ef0f04c93d3b3b6b3cebd
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed Apr 6 23:27:48 2016 +0530
+
+    java collection and template bind notations.
+
+commit 6230bddde4f70d40613e04a1da40a746066cb390
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed Apr 6 13:15:42 2016 +0530
+
+    Fourth lecture content. A UML sequence diagram for prepaid online recharge use case.
+
+commit 7ebb9e96b99e8f1a0d24e868c317aa76dfeda67f
+Author: dprasad <dprasadm@gmail.com>
+Date:   Tue Apr 5 17:17:24 2016 +0530
+
+    Slide Deck implementation in Java. Uses assert statements.
+
+commit e39d95f6a8703a80533fcfdf8997d0d6faffef43
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon Mar 28 15:08:28 2016 +0530
+
+    Changed the project title to 'Spring Notes'
+
+commit 579c3bd98eb513d51b29b95aa8bcdb509f564ef5
+Author: dprasad <dprasadm@gmail.com>
+Date:   Sat Mar 26 13:52:43 2016 +0530
+
+    Cosmetic modifications to the project titles.
+
+commit 289b0f490ef91fa4ea0e470fcfd5423c60741565
+Author: dprasad <dprasadm@gmail.com>
+Date:   Sat Mar 26 13:46:01 2016 +0530
+
+    General directory structure. Content for the first lecture.

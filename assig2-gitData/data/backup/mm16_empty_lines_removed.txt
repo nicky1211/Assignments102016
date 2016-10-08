@@ -1,0 +1,14 @@
+    Technical publication of HDFS. Mandatory reading.
+    Slide deck content in text!
+    A simple example.
+    GFS and MapReduce reference papers.
+    Added the statement for eighth project.
+    Slide-deck for distributed databases and distributed transactions.
+    Slide-deck for the lecture.
+    The first assignment.
+    Vijayananda's presentation to the students and faculty.
+    Listed the term projects. Added a couple new references.
+    Additional references.
+    Syllabus and structure of the entire program.
+    First set of references.
+    Update README.md

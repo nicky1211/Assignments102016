@@ -1,0 +1,89 @@
+commit 8f57b5d5b37afecf6983772e0b20cd1fea40ffce
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed Oct 5 10:21:27 2016 +0530
+
+    Technical publication of HDFS. Mandatory reading.
+
+commit d22306ccb2ecbca731d563a6c78bfd949100c009
+Author: dprasad <dprasadm@gmail.com>
+Date:   Tue Sep 27 20:26:08 2016 +0530
+
+    Slide deck content in text!
+
+commit 7b627d77f2442b67b4fab7a022c4a8bec5ceea6b
+Author: dprasad <dprasadm@gmail.com>
+Date:   Tue Sep 27 20:22:50 2016 +0530
+
+    A simple example.
+
+commit 454a7883a1482ee28222533582e200f8118b81f1
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon Sep 26 16:15:00 2016 +0530
+
+    GFS and MapReduce reference papers.
+
+commit 2cf2d407966a5a3a1ee521b932592ba86afe43ed
+Author: dprasad <dprasadm@gmail.com>
+Date:   Sat Aug 27 10:33:51 2016 +0530
+
+    Added the statement for eighth project.
+
+commit 27dbb6434b6ce662837d82da25e5c0da0223dcc9
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed Aug 24 09:59:05 2016 +0530
+
+    Slide-deck for distributed databases and distributed transactions.
+
+commit e2fff40df2bbab182b26ee58500ac107d947ce52
+Author: dprasad <dprasadm@gmail.com>
+Date:   Mon Aug 22 09:58:10 2016 +0530
+
+    Slide-deck for the lecture.
+
+commit abd3299eb8722c76b268956e028604f05179ab76
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Aug 18 15:41:38 2016 +0530
+
+    The first assignment.
+
+commit 7240f88431342ebbd8b33274b320533fb424a89e
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed Aug 17 17:20:54 2016 +0530
+
+    Vijayananda's presentation to the students and faculty.
+
+commit b13a4a9f9d55451a1e2a0992380442af577e2c9a
+Author: dprasad <dprasadm@gmail.com>
+Date:   Wed Aug 17 17:02:30 2016 +0530
+
+    Listed the term projects. Added a couple new references.
+
+commit 2f653f44952e86d1211f54b236174f7dd069bbfb
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Aug 11 10:32:05 2016 +0530
+
+    Additional references.
+
+commit bc847182ea8900c3eeb9d9c5d35f6bd1cfc8dbe2
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Aug 11 09:39:24 2016 +0530
+
+    Syllabus and structure of the entire program.
+
+commit dda88d2174f7a681abb0f01c168c11c545194379
+Author: dprasad <dprasadm@gmail.com>
+Date:   Thu Aug 11 09:18:57 2016 +0530
+
+    First set of references.
+
+commit 6daa05c84d273f79c72a555af9c1350f9eed7078
+Author: sois <sois.manipal@gmail.com>
+Date:   Thu Aug 11 09:16:53 2016 +0530
+
+    Update README.md
+
+commit de893e1ce70a4c814883769f38251f07c1496453
+Author: sois <sois.manipal@gmail.com>
+Date:   Thu Aug 11 09:14:55 2016 +0530
+
+    Initial commit

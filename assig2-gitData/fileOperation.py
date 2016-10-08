@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
 
 	#For the dataViz repo
- 	gt.getcommitMessageFromLog(properties.dataViz_output_file,"/home/manick/devopsAssasination/assig2-gitData/data/datvizfile1.txt")
+ 	gt.getcommitMessageFromLog(properties.dataViz_output_file,"/home/manick/devopsAssasination/assig2-gitData/data/datavizfile1.txt")
  	gt.removeEmptyLines("/home/manick/devopsAssasination/assig2-gitData/data/datvizfile1.txt","/home/manick/devopsAssasination/assig2-gitData/data/dataviz_empty_lines_removed.txt")
  	gt.removeUnwantedSpaces("/home/manick/devopsAssasination/assig2-gitData/data/dataviz_empty_lines_removed.txt","/home/manick/devopsAssasination/assig2-gitData/data/dataviz_clean.txt")
 
