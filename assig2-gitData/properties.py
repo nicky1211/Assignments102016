@@ -15,7 +15,7 @@ sap_output_file="/home/manick/devopsAssasination/assig2-gitData/data/sap_log.txt
 
 ######################### Properties for fileOPeration.py #########################################
 
-
+commit_message_file="/home/manick/devopsAssasination/assig2-gitData/data/"
 
 ###################################################################################################
 
