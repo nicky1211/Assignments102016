@@ -1,1 +1,1 @@
-dpkg -l | grep -E 'browser' | grep 'i386' | grep -i web browser | grep -v lib | grep -v codecs | awk -F " "  '{print $2}'
+dpkg -l | grep -E 'browser' | grep 'i386' | grep -i 'web browser' | grep -v lib | grep -v codecs | awk -F " "  '{print $2}'
