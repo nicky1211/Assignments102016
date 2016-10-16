@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawSeriesChart);
+
+    function drawSeriesChart() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['RePO', 'NumberOfWeekDays', 'NumberOfWeekEnds'],
+        ['DataViz',    25,              6],
+        ['SAP',    100,              24],
+        ['MM16',    250,               60]
+      ]);
+
+      //     var data = google.visualization.arrayToDataTable([
+      //   ['Word Count', 'Character Count'],
+      //   [10,              48],
+      //   [3,              19],
+      //   [7,               34],
+      //   [6,              36],
+      //   [3,              16],
+      //   [12,              56],
+      //   [2,              11],
+      //   [6,              65],
+      //   [13,               71],
+      //   [8,              48]
+      // ]);
+
+      var options = {
+        title: 'Commits Weekend vs Weekday Comparison between three github repositories',
+        hAxis: {title: 'WEEKDAYS'},
+        vAxis: {title: 'WEEKENDS'},
+        bubble: {textStyle: {fontSize: 10}}
+      };
+
+      var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
+      chart.draw(data, options);
+    }
+    </script>
+  </head>
+  <body>
+    <div id="series_chart_div" style="width: 1000px; height: 800px;"></div>
+  </body>
+</html>
