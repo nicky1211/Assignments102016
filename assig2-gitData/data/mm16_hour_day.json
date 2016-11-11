@@ -1,0 +1,50 @@
+  {
+ "Day": "Mon",
+ "Hour": 9,
+ "Count": 1
+  }
+  {
+ "Day": "Mon",
+ "Hour": 16,
+ "Count": 1
+  }
+  {
+ "Day": "Tue",
+ "Hour": 20,
+ "Count": 2
+  }
+  {
+ "Day": "Wed",
+ "Hour": 9,
+ "Count": 1
+  }
+  {
+ "Day": "Wed",
+ "Hour": 10,
+ "Count": 1
+  }
+  {
+ "Day": "Wed",
+ "Hour": 17,
+ "Count": 2
+  }
+  {
+ "Day": "Thu",
+ "Hour": 9,
+ "Count": 9
+  }
+  {
+ "Day": "Thu",
+ "Hour": 10,
+ "Count": 10
+  }
+  {
+ "Day": "Thu",
+ "Hour": 15,
+ "Count": 15
+  }
+  {
+ "Day": "Sat",
+ "Hour": 10,
+ "Count": 10
+  }
